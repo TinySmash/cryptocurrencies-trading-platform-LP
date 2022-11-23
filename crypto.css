@@ -60,7 +60,62 @@ li,a
 {
     width: 70%;
     height: 20px;
+    border: 1px solid #F1F3F2;
+    border-radius: 3px;
+    background-color: #252525;
+}
+
+.search-button
+{
+    width: 20% ;
+    font-size: 14px;
+    background-color: #F1F3F2;
     border: 1px solid black;
     border-radius: 3px;
-    background-color: #9b9b9b;
+    height: 23px;
+}
+
+.main-title
+{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 6%;
+    color: #F1F3F2;
+    width: 50%;
+}
+
+.title
+{
+    font-size: 235% ;
+}
+
+#home-img
+{
+    width: 50%;
+    position: absolute;
+    right: 1%;
+    margin-top: 130px;
+}
+
+.action-buttons
+{
+    position: absolute;
+    margin-top: 420px;
+    width: 45%;
+    flex-wrap: wrap;
+    left: 5%;
+    padding: 10px;
+}
+
+.action-btn
+{
+    width: 90%;
+    height: 50px;
+    font-size: 26px;
+    margin-top: 10px;
+    color: #F1F3F2;
+    background-color: #022FAC;
+    border: none;
+    border-radius: 4px;
+
 }
